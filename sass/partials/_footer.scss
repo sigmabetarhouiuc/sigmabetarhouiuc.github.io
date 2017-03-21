@@ -1,8 +1,8 @@
 footer {
-    background-color: #333333;
+    background-color: #1a1a1a;
     padding-top     : 1em;
     padding-bottom  : 3em;
-    @include angled-edge( 'outside top', 'upper right', #333333,70);
+    @include angled-edge( 'outside top', 'upper right', #1a1a1a,70);
 }
 
 .footerText {
