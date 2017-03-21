@@ -1,0 +1,43 @@
+$karla: "Karla";
+$raleway: "Raleway";
+$merriweather: "Merriweather";
+$roboto: "Roboto Slab";
+$redColor: #990000;
+$greenColor: #004d00;
+$roadURL: "../images/roadPic.jpeg";
+$brotherhoodPictureURL: "../images/brotherhoodPicture.jpg";
+$rememberancePictureURL: "../images/rememberancePic.jpg";
+$rush: "../images/RushPost.jpg";
+$h1Size: 2.4rem;
+
+h1 {
+    font-size: $h1Size;
+}
+
+h2 {
+    font-size: $h1Size/6 * 5;
+}
+
+h3 {
+    font-size: $h1Size/6 * 4;
+}
+
+h4 {
+    font-size: $h1Size/6 * 3;
+}
+
+h5 {
+    font-size: $h1Size/6 * 2;
+}
+
+h6 {
+    font-size: $h1Size/6 * 1;
+}
+
+i {
+    padding: 0 0.5%;
+}
+
+p {
+    margin-bottom: 1em;
+}

@@ -1,0 +1,63 @@
+.background {
+    width         : 100%;
+    min-height    : 30em;
+    padding-bottom: 2em;
+
+    h1 {
+        font-family   : $raleway;
+        font-weight   : 400;
+        color         : #F2F2F2;
+        text-align    : center;
+        padding-top   : 1em;
+        padding-bottom: 0.4em;
+        border-bottom : 1px solid #f2f2f2;
+        width         : 25%;
+        margin        : 0 auto;
+    }
+}
+
+.redBackground {
+    @extend .background;
+    background-color: #3B1C1B;
+}
+
+.blackBackground {
+    @extend .background;
+    background-color: #2D2D2D;
+}
+
+.greenBackground {
+    @extend .background;
+    background-color: #233328;
+}
+
+.whiteBackground {
+    @extend .background;
+    background-color: #f2f2f2;
+
+    h1 {
+        color        : #333333;
+        border-bottom: 1px solid #333333;
+    }
+}
+
+.lineInfo {
+    font-family: $raleway;
+    width      : 50%;
+    text-align : center;
+    color      : #d9d9d9;
+    margin     : 0 auto;
+    padding    : 1em;
+}
+
+.lineInfoBlack {
+    @extend .lineInfo;
+    color: #4d4d4d;
+}
+
+.memberInfo {
+    img {}
+    width : 20%;
+    margin: 0 auto;
+    float : left;
+}

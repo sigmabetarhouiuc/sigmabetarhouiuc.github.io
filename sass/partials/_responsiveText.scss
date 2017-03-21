@@ -1,0 +1,16 @@
+@media all and (max-device-width:1150px){
+    @include headings(2.1rem, .4rem);
+
+}
+
+@media all and (max-device-width:900px){
+    @include headings(1.7rem, .4rem);
+}
+
+@media all and (max-device-width:550px){
+    @include headings(1.4rem, .3rem);
+}
+
+@media all and (max-device-width:450px){
+    @include headings(1.0rem, .2rem);
+}

@@ -1,0 +1,52 @@
+.aboutSection {
+    width           : 100%;
+    background-color: #f2f2f2;
+    padding         : 1em 0;
+}
+
+.aboutHeader {
+    font-family   : 'Raleway',sans-serif;
+    font-weight   : 100;
+    width         : 100%;
+    text-align    : center;
+    padding-bottom: 1em;
+}
+
+.aboutText {
+    width         : 80%;
+    font-weight   : 100;
+    text-align    : justify;
+    margin        : 0 auto;
+    line-height   : 1.5em;
+    font-family   : Arial;
+    padding-bottom: 2em;
+    clear         : both;
+}
+
+.leftFounder {
+    width        : 48%;
+    text-align   : right;
+    float        : left;
+    font-family  : $roboto;
+
+    h3 {
+        margin-bottom: 5%;
+    }
+    margin-bottom: 2%;
+    @media screen and (max-width: 700px) {
+        h3 {
+            font-size: 1.25em;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        h3 {
+            font-size: 0.95em;
+        }
+    }
+}
+
+.rightFounder {
+    @extend .leftFounder;
+    text-align: left;
+    float     : right;
+}

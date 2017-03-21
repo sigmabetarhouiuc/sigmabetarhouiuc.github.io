@@ -1,0 +1,71 @@
+.pillar {
+    width         : 33.33%;
+    height        : 58em;
+    padding-bottom: 2em;
+
+    p {
+        text-align : justify;
+        margin     : 0 auto;
+        padding    : 0.5em 3em;
+        line-height: 1.5em;
+        color      : #999999;
+        font-family: Arial;
+    }
+    @media screen and (max-width: 1350px) {
+        height: auto;
+        width : 100%;
+    }
+}
+
+.societyPillar {
+    @extend .pillar;
+    background-color: #3B1C1B;
+    float           : left;
+    @media screen and (max-width: 1350px) {
+        float: none;
+    }
+}
+
+.brotherhoodPillar {
+    @extend .pillar;
+    background-color: #2D2D2D;
+    display         : inline-block;
+    @media screen and (max-width: 1350px) {
+        display: block;
+    }
+}
+
+.remembrancePillar {
+    @extend .pillar;
+    background-color: #233328;
+    float           : right;
+    @media screen and (max-width: 1350px) {
+        float: none;
+    }
+}
+
+.header {
+    font-family: $roboto;
+    font-weight: 100;
+    width      : 100%;
+    text-align : center;
+    padding    : 0.5em 0;
+    @media screen and (max-width:1350px) {
+        padding: 0.5em 0;
+    }
+}
+
+.societyHeader {
+    @extend .header;
+    color: #943838;
+}
+
+.brotherhoodHeader {
+    @extend .header;
+    color: #404040;
+}
+
+.remembranceHeader {
+    @extend .header;
+    color: #488448;
+}
