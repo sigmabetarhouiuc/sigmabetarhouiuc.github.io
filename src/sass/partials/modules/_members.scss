@@ -1,0 +1,115 @@
+.background {
+    width: 100%;
+    min-height: 35em;
+    padding-bottom: 3em;
+    h1 {
+        font-family: $raleway;
+        font-weight: 400;
+        color: #F2F2F2;
+        text-align: center;
+        padding-top: 1em;
+        padding-bottom: 0.4em;
+        border-bottom: 1px solid #f2f2f2;
+        width: 25%;
+        margin: 0 auto;
+    }
+}
+
+.redBackground {
+    @extend .background;
+    background-color: #3B1C1B;
+}
+
+.blackBackground {
+    @extend .background;
+    background-color: #2D2D2D;
+}
+
+.greenBackground {
+    @extend .background;
+    background-color: #233328;
+}
+
+.whiteBackground {
+    @extend .background;
+    background-color: #f2f2f2;
+    h1 {
+        color: #333333;
+        border-bottom: 1px solid #333333;
+    }
+}
+
+.lineInfo {
+    font-family: $raleway;
+    width: 50%;
+    text-align: center;
+    color: #d9d9d9;
+    margin: 0 auto;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.lineInfoBlack {
+    @extend .lineInfo;
+    color: #4d4d4d;
+}
+
+.classContainer {
+    padding: 0 5%;
+}
+
+.imgResponsive {
+    max-width: 75%;
+    height: auto;
+    padding-bottom: 1em;
+    margin: 0 auto;
+    display: block;
+}
+
+.brotherContainer {
+    width: 33%;
+    min-height: 24em;
+    display: inline-block;
+    padding-bottom: 2em;
+    @media (max-width: 1200px) {
+       width: 49%;
+    }
+     @media (max-width: 800px) {
+       width: 98%;
+    }
+}
+
+dl {
+    text-align: justify;
+    font-family: $raleway;
+    color: #d9d9d9;
+    margin-left: 30%;
+    font-size: .95em;
+    @media (max-width: 1200px) {
+       margin-left: 30%;
+    }
+     @media (max-width: 1000px) {
+       margin-left: 25%;
+    }
+    @media (max-width: 800px) {
+       margin-left: 37%;
+    }
+    @media (max-width: 600px) {
+       margin-left: 30%;
+    }
+}
+
+.blackOver{
+    color: #4d4d4d !important;
+}
+
+dt {
+    float: left;
+    clear: left;
+    width: 4.8em;
+    font-weight: bold;
+}
+
+dd {
+    float: left;
+}

@@ -1,0 +1,35 @@
+.rushCarousel {
+    width           : 100%;
+    background-color: #f2f2f2;
+}
+
+.brotherhoodPicture {
+    @include darkenBackground("../images/brotherhoodPicture.jpg");
+    background-size: cover;
+    min-height     : 35em;
+}
+
+.rememberancePicture {
+    @include darkenBackground("../images/rememberancePic.jpg");
+    background-position: center;
+    background-size    : cover;
+    min-height         : 35em;
+}
+
+.suitPicture {
+    @include darkenBackgroundLight("../images/suitPic.png");
+    background-position: center;
+    background-size    : cover;
+    min-height         : 35em;
+}
+
+.brotherhoodMotto {
+    h1 {
+        font-family: $raleway;
+        color      : #FFF;
+        font-weight: 100;
+        text-align : center;
+        padding-top: 15%;
+    }
+}
+
