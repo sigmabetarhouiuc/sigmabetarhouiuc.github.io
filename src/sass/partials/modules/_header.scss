@@ -19,6 +19,7 @@ header {
 }
 
 .headerText {
+    
     color      : white;
     text-align : center;
     margin     : 12%;
@@ -37,7 +38,7 @@ header {
     .greenColor {
         color: $greenColor;
     }
-
+   
     h1 {
         opacity       : 0.90;
         letter-spacing: 0.5em;
@@ -47,8 +48,10 @@ header {
     h2 {
         opacity       : 0.5;
         letter-spacing: 0.3rem;
+        font-family: 'Montserrat', sans-serif;
     }
 }
+
 
 .roadQuote {
     font-family: $roboto;
